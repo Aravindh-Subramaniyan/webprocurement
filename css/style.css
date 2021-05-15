@@ -5452,6 +5452,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   background: url("../img/new/solution_02.jpg") no-repeat scroll center 0;
 }
 
+.twobutton{
+  display: flex;
+  flex-direction: row;
+}
 /*=========== startup_fuatures_area css ==========*/
 .startup_tab {
   border: 0px;
@@ -5472,7 +5476,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   transition: all 0.3s linear;
 }
 .startup_tab .nav-item .nav-link .icon {
-  width: 70px;
+  width: 100%;
+  max-width: 70px;
   height: 70px;
   border-radius: 50%;
   display: inline-block;
