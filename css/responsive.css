@@ -4919,12 +4919,13 @@
         margin-left: 0;
     }
     .startup_tab .nav-item{
-        width: calc(100% / 5);
-        
+        width: calc(100% / 5);   
     }
-
-    .startup_tab li h3{
-        display: none;
+    .startup_tab .nav-item .nav-link{
+        border:none;
+    }
+    .startup_tab .nav-item .nav-link h3{
+        font-size: 12px
     }
 
     .startup_tab_img .phone_img{
